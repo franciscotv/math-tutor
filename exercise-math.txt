@@ -1,0 +1,894 @@
+Cual es el número que excede a 24 tanto como es excedido por 56
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Nicole090 hace 3 min.
+RESPUESTAS
+ 
+   
+llamemos al nnúmero buscado x y analicemos las proposiciones:
+- excede a 24: x - 24
+- es excedido por 56: 56 - x
+
+x - 24 = 56 - x
+sumamos x a cada lado de la ecuación:
+2x - 24 = 56
+sumamos 24 a cada lado de la ecuacion:
+2x = 80
+x = 40
+
+El número es 40
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Me falta para, tener 26 soles el doble de lo que me falta para tener 20 soles. Cuanto tengo
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Nicole090 hace 6 min.
+RESPUESTAS
+
+nicole090
+ 
+   
+llamemos x a lo que tengo.
+- me falta, para tener 26 soles
+26 - x
+
+- me falta el doble de lo que me falta para tener 20 soles
+2(20 - x)
+
+Igualamos la información;
+
+26 - x = 2(20 - x)
+26 - x = 40 - 2x
+2x - x = 40 - 26
+x = 14
+
+Así que tengo 14 soles
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+Dos numeros que multiplicados entre si de como resultado 5 , y que esos mismos numeros en su suma me de -3
+es una pregunta de calculo diferencial.
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Luckaz hace 4 min.
+RESPUESTAS
+
+ 
+   
+llamamos x y y a los números.
+
+-  multiplicados entre si de como resultado 5
+xy = 5
+
+- que esos mismos numeros en su suma me de -3
+x + y = -3
+
+de la primera ecuación, xy = 5,
+podemos despejar x:
+x = 5/y
+
+ahora sustituimos en la segunda:
+x + y = -3
+5/y + y = -3
+
+Multiplicamos todo por y para eliminar la fracción:
+5 + y^2 = -3y
+y^2 + 3y + 5 = 0
+
+Aplicando la fórmula general de ecuaciones cuadráticas:
+y = (-3 +-√(9 - 20))/2
+Hay una raíz negativa, así que este problema no tiene solución en los números reales.
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Si la edad de Norma la multiplicamos por 3/4 el resultado es el doble de su edad disminuida en 100 años. ¿Cual es la edad de Norma?
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Fridaacb hace 56 seg.
+RESPUESTAS
+
+fridaacb
+andreahin13
+ 
+   
+llamemos la edad de Norma n:
+(3/4)n = 2n - 100
+multiplicamos todo por 4 para elminar fracciones:
+3n = 8n - 400
+8n - 3n = 400
+5n = 400
+n = 80
+
+La edad de Norma es 80 años
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Como puedo operar el siguiente ejercicio.
+Si la suma de dos números es 9 y su diferencia es 6, Cuales son losnumeros
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Canizgarcia hace 2 min.
+RESPUESTAS
+
+joseramonjarsia
+canizgarcia
+ joseramonjarsia
+Joseramonjarsia  Aspirante 
+tres y seis son los numeros
+
+COMENTARIOS  ¡NOTIFICAR ABUSO! 
+0
+ 
+GRACIAS
+0
+ 
+Escribe tu comentario aquí...
+ 
+   
+llamemos a los números x y y:
+
+-Si la suma de dos números es 9
+x + y = 9
+
+- su diferencia es 6
+x - y = 6
+
+Tenemos un sistema de dos ecuaciones simultáneas lineales con dos variables, podemos resolver:
+x + y = 9
+x - y = 6
+
+Sumándolas:
+x + y = 9
+x - y = 6
+------------
+2x + 0 = 15
+x = 15/2
+
+Sustituimos en la ecuación original:
+x + y = 9
+15/2 + y = 9
+multiplicamos todo por 2:
+15 + 2y = 18
+2y = 3
+y = 3/2
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+De un grupo de 100 alumnos en una universidad, 49 no llevan el curso de matemática y 53 no llevan el curso de computación. Si 20 alumnos no siguen
+matemática ni computación ¿Cuántos llevan uno de tales cursos?
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Christopher15 hace 7 min.
+RESPUESTAS
+
+Jumav
+Christopher15
+flacoj
+ 
+   
+Veamos paso a paso, haciendo conjuntos:
+
+- No-Matemática = 49
+
+- No-Computación = 53
+
+- No-Matemática & No-Computación = 20
+
+Así que del total = 100 restamos la unión de los conjuntos menos su intersección:
+100 - (49 + 53 - 20)
+= 100 - (102 - 20)
+= 100 - 82
+= 18
+
+Esto es porque de los alumnos que no llevan Matemáticas ni Computación, 49 + 53, de ellos 20, están en ambos conjuntos, así que no debemos contarlos.
+
+Así que del total de alumnos, 18 llevan o bien Matemáticas o Computación.
+
+Hacer un diagrama de Venn ayuda mucho para resolver este tipo de ejercicios.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Cuales son las dimensiones de un terreno rectangular, cuya superficie es de 4800m^2 . Sabiendo que el largo es el triple del ancho?
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Meel96 hace 4 min.
+RESPUESTAS
+meel96
+
+ 
+   
+sabemos que el área del rectángulo es igual a la multiplicación del largo por el ancho:
+
+área = l*a
+
+Si el largo es el triple que el ancho, esto es:
+l = 3a
+
+Expresemos el área en términos del ancho únicamente:
+
+área = l*a = 3a*a = 3a^2
+
+Y usamos el dato proporcionado, área = 4800, por lo tanto:
+3a^2 = 4800
+a^2 = 1600
+a = 40
+
+Es decir que el ancho mide 40 m, y utilizando la ecuación original:
+l = 3a = 3*40 = 120
+
+Es decir que el largo mide 120 m
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Miriam organiza sus gastos de la siguiente manera:
+• La cuarta parte de su salario es para alimentos y pagos de su casa.
+
+• Un tercio de su salario lo gasta en su auto.
+
+• Un quinto lo gasta en entretenimiento.
+
+• Lo que le sobra, $2600, los ahorra.
+
+¿Cuál es el salario de Miriam?
+1 COMENTARIO  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Agabykh hace 11 min.
+como puedo resolverlo por que no entiendo como
+
+ 
+
+Pregunta al Agabykh acerca de esta tarea...
+RESPUESTAS
+
+ 
+   
+Veamos, llamemos x al salario de Miriam y tenemos:
+• La cuarta parte de su salario es para alimentos y pagos de su casa.
+• Un tercio de su salario lo gasta en su auto.
+• Un quinto lo gasta en entretenimiento.
+• Lo que le sobra, $2600, los ahorra.
+
+Gastos:
+(1/4)x + (1/3)x + (1/5)x
+
+Ahorro:
+2600
+
+Total:
+x
+
+Total = Ahorro + Gasto
+x = 2600 + ((1/4)x + (1/3)x + (1/5)x)
+x = 2600 + ((3/12)x + (4/12)x + (1/5)x)
+x = 2600 + ((7/12)x + (1/5)x)
+x = 2600 + ((35/60)x + (12/60)x)
+x = 2600 + (47/60)x
+(60/60)x - (47/60)x = 2600
+13x/60 = 2600
+13x = 60*2600
+
+x = 12000
+
+El salario de Miriam es $12000 
+
+----------------------------------------------------------------------------------------------------------------------------
+
+La suma de cuatro numeros consecutivos es 250 . El numero mayor de ellos es
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por 5secondofsummer hace 2 min.
+RESPUESTAS
+
+ 
+   
+los números son, a, b, c, d
+a
+b = a + 1
+c = a + 2
+d = a + 3
+
+a + b + c + d = 250
+a + (a + 1) + (a + 2) + (a + 3) = 250
+4a + 6 = 250
+4a = 244
+a = 61
+
+Por lo tanto los números son: 61, 62, 63, 64
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Si el pasado mañana de hace 4 días de anteayer de mañana equivale al mañana del anteayer del lunes. ¿Qué día será mañana?
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Patpx1 hace 5 min.
+RESPUESTAS
+
+ 
+Escribe tu comentario aquí...
+ 
+   
+- pasado mañana de hace 4 días
+hace 2 días, antier
+
+- entonces antier de anteayer
+hace 5 días
+
+- hace 5 días de mañana
+hace 4 días
+
+- mañana de anteayer
+antier
+
+- antier del lunes equivale a hace 4 días, entonces sábado equivale a hace 4 días, hoy es miércoles, mañana será jueves
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+La edad de Bruno es dos quintos de la de Ana y la de Carlos es dos tercios de la de Bruno. Si entre los tres tienen 25 años, ¿Cual es la edad de cada uno?
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Victoriapucci17 hace 5 min.
+RESPUESTAS
+
+
+llamamos b la edad de Bruno, a la de Ana y c la de Carlos.
+
+- La edad de Bruno es dos quintos de la de Ana
+ b = (2/5)a
+entonces:
+a = (5/2)b
+
+- la de Carlos es dos tercios de la de Bruno.
+c = (2/3)b
+
+- Si entre los tres tienen 25 años
+b + a + c = 25
+
+Sustituimos en la última ecuación las dos primeras:
+b + a + c = 25
+b + (5/2)b + (2/3)b = 25
+
+Multiplicamos toda la ecuación por 6 para eliminar fracciones:
+6b + 6(5/2)b + 6(2/3)b = 6*25
+6b + 15b + 4b = 150
+25b = 150
+b = 6
+Esa es la edad de Bruno, 6 años.
+
+Sustituimos en las ecs originales:
+a = (5/2)b = (5/2)6 = 15
+la edad de Ana es 15 años
+
+- la de Carlos es dos tercios de la de Bruno.
+c = (2/3)b = (2/3)6 = 4
+la edad de Bruno es 4 años
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Entre tres alumnas tienen 28 libros.Bety tiene 3 menos que Ana y Caty.tiene 2 menos que Bety .¿Cuántos tiene Caty?
+7
+8
+2
+5
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por 5secondofsummer hace 5 min.
+RESPUESTAS
+
+Enock
+ 
+   
+llamemos b a la cantidad de libros de Bety, a la de Ana y c la de Caty:
+
+- Entre tres alumnas tienen 28 libros.
+a + b + c = 28
+
+- Bety tiene 3 menos que Ana
+b = a - 3
+por lo tanto
+a = b + 3 (Ana tiene 3 más que Bety)
+
+- Caty.tiene 2 menos que Bety .
+c = b - 2
+
+Tenemos estas tres ecuaciones lineales simultáneas:
+a + b + c = 28
+a = b + 3
+c = b - 2
+
+Sustituimos las últimas en la primera:
+a + b + c = 28
+(b + 3) + b + (b - 2) = 28
+3b + 1 = 28
+3b = 27
+b = 9
+
+Así que Bety tiene 9 libros
+
+Por lo tanto:
+a = b + 3 = 9 + 3 = 12
+Ana tiene 12 libros
+
+c = b - 2 = 9 - 2 = 7
+
+Caty tiene 7 libros
+
+----------------------------------------------------------------------------------------------------------------------------
+
+En un taller de musica participan 32 alumnos. De los cuales 16 tocan guitarra,25 violin y 12 ambos instrumentos ¿cuantos practican otros instrumentos?
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Alexoctubre10 hace 3 min.
+RESPUESTAS
+   
+Por lo tanto tenemos 16 + 25 = 41 que tocan o bien violín o guitarra, pero de esos 41, 12 tocan ambos, así que restamos la intersección de esos conjuntos, 41 - 12 = 29, por lo tanto solamente 29 distintos alumnos tocan o bien violín o guitarra, por ende, del total 32, solamente 3 tocan otros instrumentos.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+Si el producto de 2 numeros 363 y su cociente es 3. ¿cual es la suma de esos dos numeros?
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Jhamofer777 hace 7 min.
+RESPUESTAS
+ 
+   
+llamemos x y y a los números, entonces tenemos:
+
+- su producto es 363
+xy = 363
+
+- su cociente es 3
+x/y = 3
+
+Por lo tanto:
+x = 3y
+
+y sustituyendo en la primera:
+(3y)y = 363
+3y^2 = 363
+y^2 = 363
+y = √363
+
+x = 3y = 3√363
+
+la suma de esos números es:
+
+x + y = 3√363 + √363
+= 4√363
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+¿Cuántos equipos diferentes de tres personas pueden originarse si se tienen cinco personas para elegir entre ellas?
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Ivanarodriguez06 hace 3 min.
+RESPUESTAS
+
+ 
+   
+se trata de encontrar las combinaciones de 3 personas, entre un total de 5, las combinaciones posibles se calculan así:
+
+c = n!/(r!(n - r)!)
+
+Donde n es el total, y r es el número seleccionado entre el total.
+Así que tenemos,
+
+c = 5!/(3!(5 - 3)!)
+= (5*4)/(2*1)
+= 20/2
+= 10
+
+Así que 3 personas se pueden acomodar de 10 maneras distintas de un total de 10 personas.
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+ Si se sabe que una finca de forma rectangular tiene una área de (5 − 1i)centimetros cuadrados Y uno de sus lados mide (3 + 7i)centimetros. Cuál es el val
+or del otro lado de la finca.
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Mymbff hace 13 min.
+RESPUESTAS
+
+mymbff
+ 
+   
+Es un ejercicio utilizando números complejos, donde i^2 = -1 por definición.
+
+El área se define como la multiplicación de los lados distintos del rectángulo:
+a = b*h
+
+Con los datos del problema tenemos:
+
+(5 - i) = (3 + 7i)(x + yi)
+
+Donde expresamos como (x + yi) el lado desconocido del rectángulo, por lo tanto:
+
+(5 - i) = 3x + 3yi + 7xi - 7y
+Por lo tanto, igualando parte real con parte real e imaginaria con imaginaria en cada lado de la igualdad, tenemos:
+
+ 5 = 3x - 7y
+-1 = 7x + 3y
+
+Este es un sistema de 2 ecuaciones lineales simultáneas con dos incógnitas, resolvemos, multiplicando la primera ecuación por 7 y la segunda por -3, y sumamos ambas:
+
+ 21x - 49y = 35
+-21x - 9y  =  3
+-------------------
+0 - 58y = 38
+y = 38/58 = 19/29
+
+Sustituimos este valor en la ecuación original:
+ 5 = 3x - 7y
+ 5 = 3x - 7(19/29)
+3x = -5 + 7(19/29) = -12/29
+x = -4/29
+
+Por lo tanto el otro lado de la finca es: (1/29)(-4 + 19i)
+
+
+----------------------------------------------------------------------------------------------------------------------------
+Para preparar cinco tazas de café se necesitan tres cucharadas de café granulado. ¿cuantas tazas de café se podrán preparar con nueve cucharadas ?
+
+necesitamos 3 cucharadas para preparar 5 tazas, esto es 3/5  de cucharada por cada taza, o equivalentemente, 5/3 tazas por cucharada de café.
+
+Por lo tanto con 9 cucharadas, tendremos:
+(9 cucharadas)(5/3 taza/cucharada)
+= 9(5/3)
+= 45/3
+= 15
+
+Así que con 9 cucharadas podemos preparar, 15 tazas.
+----------------------------------------------------------------------------------------------------------------------------
+
+Que parentesco tiene conmigo la hija de la esposa del unico vastago de mi madre
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Mijayita hace 2 min.
+RESPUESTAS
+
+ 
+Escribe tu comentario aquí...
+ 
+   
+- el único vástago de mi madre:
+soy yo
+
+- esposa del único vástago de mi madre: 
+mi esposa
+
+- hija de la esposa del único vástago de mi madre:
+hija de mi esposa, es mi hija
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+La diferencia de 2 numeros es 36 y un medio del mayor excede en dos al menor. Determina los números.
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Drpyme hace 5 min.
+RESPUESTAS
+
+ 
+   
+llamemos a y b a los números:
+- La diferencia de 2 numeros es 36
+a - b = 36
+por lo tanto: a  > b
+
+- un medio del mayor excede en dos al menor. 
+(1/2)a = b + 2
+multipliquemos toda la ecuación por 2 para eliminar fracciones:
+a = 2b + 4
+a - 2b = 4
+
+Tenemos dos ecuaciones simultáneaas:
+a - b = 36
+a - 2b = 4
+
+multipliquemos la segunda por -1 y sumemos ambas:
+ a - b  = 36
+-a + 2b = -4
+----------------
+0 + b = 32
+b = 32
+
+sustituimos en la ecuación original:
+ a - b  = 36
+a - 32 = 36
+a = 68
+
+Los números son 32 y 68
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Suplemento del complemento de un angulo x es igual al doble del complemento x. hallar x
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Omarfalconlopez hace 11 min.
+RESPUESTAS
+
+omarfalconlopez
+ 
+   
+- los ángulos complementarios suman 90 grados:
+x + (complemento de x) = 90
+por lo tanto:
+(complemento de x) = 90 - x
+
+- los ángulos  suplementarios suman 180 grados
+x + (suplemento de x) = 180
+por lo tanto:
+(suplemento de x) = 180 - x
+
+- de la info del problema:
+suplemento de (complemento de x) = 2(complemento de x)
+sustituyendo las dos primeras ecuaciones:
+suplemento de (180 - x) = 2(90 - x)
+suplemento de (180 - x) = 180 - 2x
+
+Ahora, como los suplementarios forman 180
+(180 - x) + suplemento de (180 - x) = 180
+por lo tanto:
+suplemento de (180 - x) = 180 - 180 + x = x
+por lo tanto:
+suplemento de (180 - x) = 180 - 2x
+x = 180 - 2x
+x = 60
+
+Ese es el ángulo
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Si a=10, b=12y c=16 , ¿cuál es la medida del ángulo opuesto al lado más corto?
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Antwon hace 10 min.
+RESPUESTAS
+YeliRossis
+
+ 
+   
+usamos la generalización del teorema de Pitágoras (dado que no es un triángulo rectángulo), esto es, el teorema del coseno para resolver, el teorema nos dice que, el cuadrado de un lado de un triangulo es igual a la suma de los cuadrados de los otros dos lados menos el doble del producto de ellos por el coseno del ángulo que los lados multiplicados forman, esto es:
+
+a^2 = b^2 + c^2 - 2bc cos x
+
+donde x es el ángulo buscado
+
+sustituimos:
+
+10^2 = 12^2 + 16^2 - 2(12)(16) cos x
+
+100 = 144 + 256 - 384 cos x
+
+cos x = (144 + 256 - 100)/384
+cos x = 300/384
+
+Así que el coseno del ángulo x vale 300/384
+
+Por lo tanto x = 38.6 grados
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+ En la sucesión 1, 1, 3, 5, 8, 13, 21, 34,… los primeros dos números son 1 y 1, y cada número siguiente
+es la suma de los dos anteriores. ¿Cuántos de los primeros 2015 números de la sucesión son pares?
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Dos números están en la misma razón que 3 y 5. Si la suma de estos es 56 cual es el menor
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Faustoanti13 hace 4 min.
+RESPUESTAS
+
+ 
+   
+llamemos x y y a los números, entonces:
+
+- están en la misma razón que 3  5:
+3x = 5y
+esto es:
+3x - 5y = 0
+
+
+- la suma de los números es 56:
+x + y = 56
+
+Tenemos dos ecuaciones, multipliquemos la segunda por 5 y sumamos a la primera:
+
+5x + 5y = 280
+3x - 5y = 0
+-------------------
+8x + 0 = 280
+x = 280/8
+x = 35
+
+Sustituimos en la primera ecuación:
+3x = 5y
+3(35) = 5y
+5y = 105
+y = 21
+
+los números son 21 y 35
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+El triplo de la suma de dos números es 63, y el número mayor es 6 veces el
+menor. Entonces, el número mayor es
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Lucescita hace 4 min.
+RESPUESTAS
+
+lucescita
+ 
+   
+llamamos x y y a los números desconocidos.
+
+-El triplo de la suma de dos números es 63
+3(x + y) = 63
+
+- el número mayor es 6 veces el menor.
+y = 6x
+
+sustituimos la segunda ecuación en la primera:
+3(x + y) = 63
+3(x + (6x)) = 63
+3(x + 6x) = 63
+3(7x) = 63
+21x = 63
+x = 3
+
+Sustituimos:
+y = 6x = 6(3)
+y = 18
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Plantee la ecuación de preste la mitad de lo que tenia y de la otra mitad, pague la mitad y me quedaron 25 ¿cuanto tenia al inicio?
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Danielzam23dano hace 4 min.
+RESPUESTAS
+
+ 
+   
+- preste la mitad de lo que tenia 
+x - (1/2)x = (1/2)x
+donde x es lo que tenía
+
+- de la otra mitad, pague la mitad y me quedaron 25
+(1/2)x - (1/4)x = 25
+restamos 1/4 porque es la mitad de un medio ((1/2)(1/2) = 1/4)
+
+trabajamos con la segunda ecuación:
+(1/2)x - (1/4)x = 25
+multiplicamos todo por 4 para eliminar fracciones:
+4*(1/2)x - 4*(1/4)x = 4*25
+(4/2)x - (4/4)x = 100
+2x - x = 100
+x = 100
+Así que al inicio tenía 100
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+¿Cual es el punto de intersección de las rectas L1 Y L2 donde L1 esta dada por
+x-(3-y)=2x+1 y L2 esta dada por 2x-(y+1)=-3?
+
+(0,4)
+(2,6)
+(6,10)
+(-2,2)
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Mantran hace 11 min.
+ 
+
+Pregunta al Mantran acerca de esta tarea...
+RESPUESTAS
+
+ 
+   
+Para encontrar dónde se intersectan, igualamos las ecuaciones y encontramos el valor de x, luego sustituimos para encontrar el de y:
+
+x - (3 - y) = 2x + 1
+x - 3 + y = 2x + 1
+y = x + 4
+
+ 2x - (y + 1) = -3
+2x - y - 1 = -3
+y = 2x + 2
+
+Igualando:
+x + 4 = 2x + 2
+x = 2
+
+Sustituimos:
+y = x + 4 = 2 + 4 = 6
+y = 2x + 2 = 2*2 + 2 = 6
+
+Así que el punto de intersección es (2, 6)
+
+----------------------------------------------------------------------------------------------------------------------------
+1. Dos números son entre sí, como 5 es a 9. Si el triple del menor, más el doble del mayor resulta
+132. Hallar el mayor de dichos números
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Instinctive hace 4 min.
+RESPUESTAS
+yaelmtz056
+
+ 
+   
+llamemos x y y a los números.
+
+- son como 5 a 9
+9x = 5y
+
+- triple del menor más el doble del mayor resulta 132
+3x + 2y = 132
+
+Multiplicamos la segunda ecución por 3
+3x + 2y = 132
+9x + 6y = 396
+
+Sustituimos 9x = 5y
+9x + 6y = 396
+5y + 6y = 396
+11y = 396
+y = 36
+
+Sabemos que:
+9x = 5y = 5*36
+9x = 180
+x = 20
+
+
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
