@@ -811,10 +811,127 @@ x = 20
 
 
 ----------------------------------------------------------------------------------------------------------------------------
+
+Una compañia de aviacion divide los psajeros en tres categorias. en uno de los avionesla cantidad de asientos de primera clase es la octava del total ,
+lacategoria de la ejecutiva tiene una vez y media de la cantidad de asientos de la primera clase , y hay 165 asientos de turistas ¡cuantos asientos tiene el avion?
+
+veamos, llamaremos x a la cantidad total de asientos
+
+- la cantidad de asientos de primera clase es la octava parte del total
+primeraClase = (1/8)x
+
+- lacategoria de la ejecutiva tiene una vez y media de la cantidad de asientos de la primera clase:
+ejecutiva = 1.5*primeraClase
+= (3/2)primeraClase
+= (3/2)(1/8)x
+= (3/16)x
+
+- turistas = 165
+
+Por lo tanto, el total (que llamamos x) es la suma de todos los anteriores:
+total = x
+total = primeraClase + ejecutiva + turistas
+x = (1/8)x + (3/16)x + 165
+
+Despejamos x:
+x - (1/8)x - (3/16)x = 165
+x - (2/16)x - (3/16)x = 165
+x - (5/16)x = 165
+(16/16)x - (5/16)x = 165
+(11/16)x = 165
+x = 165*16/11
+x = 240
+
+El avión tiene 240 asientos!
 ----------------------------------------------------------------------------------------------------------------------------
+
+Un tren sale a las 12:00 pm de la ciudad A a la ciudad B,situada 400km de distancia, con una velocidad constante de 100 km/h. Otro tren sale de la ciudad
+B a la ciudad A a las 2:00 pm y mantiene una velocidad constante de 70 km/h. ¿determinar la hora en la cual los trenes se encuentran y la distancia medida a partir de la ciudad A?
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Bellaeinteligente hace 22 min.
+RESPUESTAS
+bellaeinteligente
+
+ 
+  Profesor 
+A ----------------------- B
+A -------- x ------------B
+
+Es decir, los trenes se encuentran en el punto x, a una distancia x desde la ciudad A, la distancia de x a B es igual a la distancia AB menos x.
+
+Tren A recorre distancia x
+Tren B recorre distancia AB - x = 400 km - x
+
+La distancia x está dada por la velocidad del tren A multiplicada por el tiempoA
+x = V_a*t_a
+resolviendo para el tiempoA:
+t_a = x/V_a
+
+La distancia que recorre el tren B está dada por su velocidad multiplicada por el tiempoB
+400 - x = V_b*t_b
+resolviendo para tiempo B:
+t_b = (400 - x)/V_b
+
+El tiempo del tren B es 2 horas menos que el tren A:
+t_b = t_a - 2
+sustituyendo las ecuaciones de los tiempos:
+(400 - x)/V_b = t_a = x/V_a
+usamos datos:
+(400 - x)/70 = x/100
+100*(400 - x) = 70x
+40000 - 100x = 70x
+170x = 40000
+x = 235.3 km
+
+Es decir se encuentran a 235.3 km de distancia de la ciudad A, veamos cuánto tiempo le toma al tren A (v_a = 100 km/h ) llegar a ese punto:
+velocidad = distancia/tiempo
+tiempo = distancia/velocidad = 235.3/100 = 2.35 h
+
+Es decir que los trenes se encuentran en el punto x, a 235.3 km de distancia de la ciudad A, 2.35 horas después de las 12:00 pm, esto es:
+(2.35 h)(60 min/h)
+= 141 min
+después de 141 minutos a partir de las 12:00 pm se encuentran los trenes, esto es, 2 horas con 21 minutos después, o sea, 2:21 pm
 ----------------------------------------------------------------------------------------------------------------------------
+
+Halla el valor de x si la pendiente de la linea que pasa por los puntos (x,-2) y (6,4) es igual a 2
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Fathma hace 27 min.
+RESPUESTAS
+ 
+  Profesor 
+la pendiente se define como el segmento en y entre el segmento en x, esto es,
+P1(x1, y1), P2(x2, y2) son dos puntos de la recta, entonces la pendiente m es:
+m = (y2 - y1)/(x2 - x1)
+
+Sustituyendo los datos del problema:
+2 = (4 - (-2))/(6 - x)
+2 = (4 + 2)/(6 - x)
+2 = 6/(6 - x)
+2(6 - x) = 6
+6 - x = 3
+x = 3
 ----------------------------------------------------------------------------------------------------------------------------
+
+Estoy leyendo un libro de 450 hojas.si lo que he leido es la tercera parte de lo que me falta por leer,¿cual es la siguiente pagina que leere?
+PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Patyaguilar17 hace 2 min.
+RESPUESTAS
+
+patyaguilar17
+ 
+  Profesor 
+llamamos x a lo que ya leí
+
+entonces me falta por leer: 450 - x
+
+lo que he leído, x, es la tercera parte de lo que me falta por leer (1/3)(450 - x), eso es:
+x = (1/3)(450 - x)
+multiplicamos por 3 para eliminar fracciones:
+3x = 450 - x
+2x = 450
+x = 225
+
+Así que he leído 225 hojas, sigue la 226
 ----------------------------------------------------------------------------------------------------------------------------
+
+
 ----------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------
