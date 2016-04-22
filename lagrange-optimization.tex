@@ -1,0 +1,297 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{exercise}
+
+\author{Francisco Treviño}
+\title{Optimization in Economic Theory:\\Lagrange's Method}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Exercises to practice Lagrange's optimization method.
+\end{abstract}
+
+\paragraph{Excersise 2.1: The Cobbs-Douglas Utility Function}
+\paragraph{}
+Consider the consumer's problem with utility function $U$ defined by
+  \begin{equation}
+    U(x, y) = x^\alpha y^\beta
+  \end{equation}
+Show that it yields the constant-budget-shared demand functions
+  \begin{equation}\label{df}
+    x = \frac{\alpha I}{(\alpha + \beta)p}, \qquad y = \frac{\beta I}{(\alpha + \beta)q}
+  \end{equation}
+The budget constraint is
+  \begin{equation}
+    px + qy = I
+  \end{equation}
+
+\paragraph{}
+We begin by constructing the Lagrangian $L$ using the utility function and the constraint
+
+  \begin{equation}
+     L(x, y, \lambda) = x^\alpha y^\beta + \lambda (I - px - qy)
+  \end{equation}
+
+And now proceed with the partial derivatives, that involve implicit derivation, and optimize the results:
+  \begin{equation}
+    \frac{\partial L}{\partial x} = \alpha x^{\alpha - 1} y^\beta - \lambda p = 0
+  \end{equation}
+
+  \begin{equation}
+    \frac{\partial L}{\partial y} = \beta x^\alpha y^{\beta - 1} - \lambda q = 0
+  \end{equation}
+
+  \begin{equation}\label{lag}
+    \frac{\partial L}{\partial \lambda} = I - px - qy = 0
+  \end{equation}
+
+If we clear for $\lambda$ in the two first partial derivatives we have:
+
+  \begin{equation}
+    \lambda = \frac{\alpha x^{\alpha - 1} y^\beta}{p}
+  \end{equation}
+
+  \begin{equation}
+    \lambda = \frac{\beta x^\alpha y^{\beta - 1}}{q}
+  \end{equation}
+
+So we can find a relationship between $x$ and $y$ doing some Algebra, as shown:
+
+  \begin{equation}
+    \frac{\alpha x^{\alpha - 1} y^\beta}{p} = \frac{\beta x^\alpha y^{\beta - 1}}{q}
+  \end{equation}
+
+Therefore, multiplying both sides by $x^{1 - \alpha}$
+  \begin{equation}
+    \frac{\alpha y^\beta}{p} = \frac{\beta x  y^{\beta - 1}}{q}
+  \end{equation}
+
+and now, multiplying both sides by $y^{1 - \beta}$
+  \begin{equation}
+    \frac{\alpha y}{p} = \frac{\beta x}{q}
+  \end{equation}
+
+From there we find $x$ and $y$ relationships:
+  \begin{equation}
+   x = \frac{\alpha q}{\beta p}y, \qquad y = \frac{\beta p}{\alpha q}x
+  \end{equation}
+
+Now lets substitute these, one at the time, in the Lagrange multiplier partial derivative $\ref{lag}$, as follows:
+  \begin{equation}
+    I = px + qy
+  \end{equation}
+
+Lets begin with $x$:
+  \begin{equation}
+    I = px + q\frac{\beta p}{\alpha q}x
+  \end{equation}
+
+  \begin{equation}
+    I = px + \frac{\beta p}{\alpha}x
+  \end{equation}
+
+  \begin{equation}
+    I = px( 1 + \frac{\beta}{\alpha})
+  \end{equation}
+
+  \begin{equation}
+    I = px \left( \frac{\alpha + \beta}{\alpha} \right)
+  \end{equation}
+
+So we lastly solve for $x$:
+  \begin{equation}\label{x}
+    x = \frac{\alpha I}{(\alpha + \beta)p}
+  \end{equation}
+
+Now we follow the same process for $y$:
+  \begin{equation}
+    I = p\frac{\alpha q}{\beta p}y + qy
+  \end{equation}
+
+  \begin{equation}
+    I = qy \left( \frac{\alpha}{\beta} + 1 \right)
+  \end{equation}
+
+  \begin{equation}
+    I = qy \left( \frac{\alpha + \beta}{\beta}\right)
+  \end{equation}
+
+Solving for $y$, we have:
+  \begin{equation}\label{y}
+    y = \frac{\beta I}{(\alpha + \beta)q}
+  \end{equation}
+
+\paragraph{}
+So we proved that the Utility function yields the constant-budget-shared demand functions $\ref{df}$
+
+\paragraph{}
+Lastly, we find the lagrange multiplier, lets use a previously obtained result, from the Lagrangian partial derivatives:
+  \begin{equation}
+    \frac{\partial L}{\partial x} = \alpha x^{\alpha - 1} y^\beta - \lambda p = 0
+  \end{equation}
+
+There we substitute the results obtained for $x$ and $y$, $\ref{x}$ and $\ref{y}$ respectively, and so we have:
+  \begin{equation}
+    \alpha \left( \frac{\alpha I}{(\alpha + \beta)p} \right)^{\alpha - 1} \left( \frac{\beta I}{(\alpha + \beta)q} \right)^\beta - \lambda p = 0
+  \end{equation}
+
+  \begin{equation}
+    \lambda = \frac{\alpha}{p} \left( \frac{\alpha I}{(\alpha + \beta)p} \right)^{\alpha - 1} \left( \frac{\beta I}{(\alpha + \beta)q} \right)^\beta
+  \end{equation}
+
+And finally:
+ \begin{equation}
+    \lambda = \frac{\alpha^\alpha \beta^\beta I^{\alpha + \beta - 1}}{(\alpha + \beta)^{\alpha + \beta - 1}p^\alpha q^\beta}
+  \end{equation}
+
+.\newline
+
+\paragraph{Exercise 2.2: The Linear Expenditure System}
+
+\paragraph{}
+
+Let the utility function be defined as:
+\begin{equation}
+  U(x, y) = \alpha \ln (x - x_0) + \beta \ln (y - y_0)
+\end{equation}
+
+where $x_0$, $y_0$ are given constants, and
+\begin{equation}\label{res}
+  \alpha + \beta = 1
+\end{equation}
+
+The budget constraint is
+  \begin{equation}
+    px + qy = I
+  \end{equation}
+
+Show that the optimal expenditures on the two goods are linear functions of income and prices.
+
+The utility function brings with it a rich range of possible optimum choice. The budget shares of the two goods can now vary systematically with income and prices. One good can be a necessity and the other a luxury (but neither good can be inferior since $\alpha$ and $\beta$ must be positive). But the expenditures still have a simple functional form. For these reasons, this specification was popular in the early empirical work on consumer demand.
+
+\paragraph{}
+Lets build the Langrangian:
+\begin{equation}
+  L(x, y, z) = \alpha \ln (x - x_0) + \beta \ln (y - y_0) + \lambda (I - px - py)
+\end{equation}
+
+And now calculate the partial derivatives, the optimal points that is:
+\begin{equation}
+  \frac{\partial L}{\partial x} = \frac{\alpha}{x - x_0} - \lambda p = 0
+\end{equation}
+
+So we solve for x:
+\begin{equation}
+  \alpha = \lambda p (x - x_0)
+\end{equation}
+
+therefore:
+\begin{equation}
+  x = \frac{\alpha}{\lambda p} + x_0
+\end{equation}
+
+Optimum for $y$:
+\begin{equation}
+  \frac{\partial L}{\partial y} = \frac{\beta}{y - y_0} - \lambda q = 0
+\end{equation}
+
+We now solve for y:
+\begin{equation}
+  \beta = \lambda q (y - y_0)
+\end{equation}
+
+therefore:
+\begin{equation}
+  y = \frac{\beta}{\lambda q} + y_0
+\end{equation}
+
+Optimum for $\lambda$:
+\begin{equation}
+  \frac{\partial L}{\partial \lambda} = I - px - qy = 0
+\end{equation}
+
+Lets substitute the found expressions of $x$ and $y$ in the last equation:
+\begin{equation}
+  I - p \left( \frac{\alpha}{\lambda p} + x_0 \right) - q \left( \frac{\beta}{\lambda q} + y_0 \right) = 0
+\end{equation}
+
+and do simplify:
+\begin{equation}
+  I - \frac{\alpha}{\lambda} - px_0 - \frac{\beta}{\lambda} - qy_0 = 0
+\end{equation}
+
+\begin{equation}
+  \frac{1}{\lambda} (\alpha + \beta) = I - px_0 - qy_0
+\end{equation}
+
+Hence, due to restriction given above:
+\begin{equation}\label{lam}
+  \lambda = 1/(I - px_0 - qy_0)
+\end{equation}
+
+We now proceed to find two expressions for $\lambda$ in terms of $x$ and $y$ and find the value of them in terms of the parameters.
+
+From the partial derivative of the Lagrangian with respect to $x$ we can easily see that
+\begin{equation}
+  \lambda = \frac{\alpha}{p(x - x_0)}
+\end{equation}
+
+we can equal this equation with \ref{lam}:
+\begin{equation}
+  \frac{\alpha}{p(x - x_0)} = \frac{1}{(I - px_0 - qy_0)}
+\end{equation}
+
+
+\begin{equation}
+  px = \alpha I - \alpha px_0 - \alpha q y_0 + px_0
+\end{equation}
+
+\begin{equation}
+  px = \alpha I - \alpha q y_0 - px_0(\alpha - 1)
+\end{equation}
+
+Remember the restriction \ref{res}, so we have:
+\begin{equation}
+  px = \alpha I - \alpha q y_0 + \beta px_0
+\end{equation}
+
+From the partial derivative of the Lagrangian with respect to $y$ we follow the same procedure as we did with $x$:
+
+\begin{equation}
+  \lambda = \frac{\beta}{q(y - y_0)}
+\end{equation}
+
+we can equal this equation with \ref{lam}:
+\begin{equation}
+   \frac{\beta}{q(y - y_0)} = \frac{1}{(I - px_0 - qy_0)}
+\end{equation}
+
+\begin{equation}
+  qy = \beta I - \beta px_0 - \beta q y_0 + qy_0
+\end{equation}
+
+\begin{equation}
+  qy = \beta I - \beta px_0 - qy_0(\beta - 1)
+\end{equation}
+
+Remember the restriction \ref{res}, so we have:
+
+\begin{equation}
+  qy = \beta I - \beta px_0 + \alpha qy_0
+\end{equation}
+
+So we now have both Optimal expenditures for $x$ and $y$
+
+\end{document}
+\begin{equation}
+ test
+\end{equation}
+
+
+
+
+
+
+
