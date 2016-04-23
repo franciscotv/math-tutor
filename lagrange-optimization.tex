@@ -3,7 +3,7 @@
 \usepackage{exercise}
 \usepackage{amsmath}
 
-\author{Francisco Trevino}
+\author{Jack King}
 \title{Optimization in Economic Theory:\\Lagrange's Method}
 
 \begin{document}
@@ -341,7 +341,7 @@ We do construct the Lagrangian function as follows
   L(x_1, x_2, x_3, \lambda) = \alpha_1 ln(x_1) + \alpha_2 ln(x_2) +\alpha_3 ln(x_3) \\ + \lambda (I - p_1x_1 - p_2x_2 - p_3x_3)
 \end{multline}
 
-We do assume that the quantities of goods $x_1, x_2, x_3$ are non negative which "binds" the expressions of the partial derivatives to be exact equations, and not unequalities as the Kuhn-Tucker Theorem would render necesary, by the term binding, we refer to the fact that when a single unequality, say $x \geq 0$, is binding if it holds as an equation. That is, according to Kuhn-Tucker theorem, for the optimization of Lagrangian we must have
+We do assume that the quantities of goods variables $x_1, x_2, x_3$ are non negative which "binds" the expressions of the partial derivatives to be exact equations, and not unequalities as the Kuhn-Tucker Theorem would render necesary, by the term binding, we refer to the fact that when a single unequality, say $x \geq 0$, is binding if it holds as an equation. That is, according to Kuhn-Tucker theorem, for the optimization of Lagrangian we must have
 
 \begin{equation}
   \frac{\partial L}{\partial x_i} = f(x1, ..., x_i, \lambda) \leq 0, \qquad x_i \geq 0
@@ -401,7 +401,7 @@ as given by the Kuhn-Tucker Theorem and the complementary slackness imply that i
 
 Which in our excersise renders this expression:
 
-\begin{equation}
+\begin{equation}\label{slk}
   \frac{\partial L}{\partial \lambda} = I - p_1x_1 - p_2x_2 - p_3x_3 \geq 0, \qquad \lambda \geq 0.
 \end{equation}
 
@@ -423,15 +423,15 @@ This provides us with two possibilities or two cases to analyse, either $\lambda
 If we have $\lambda = 0$, then that would imply, that our goods variables $x_1, x_2, x_3 $ would be undefined, and that makes no sense, that is:
 
 \begin{equation}
-  x_1 = \frac{\alpha_1}{\lambda p_1}, \quad \lambda = 0 \quad \Rightarrow \quad x_1 = \inf
+  x_1 = \frac{\alpha_1}{\lambda p_1}, \quad \lambda = 0 \quad \Rightarrow \quad x_1 = \infty
 \end{equation}
 
 \begin{equation}
-  x_3 = \frac{\alpha_2}{\lambda p_2}, \quad \lambda = 0 \quad \Rightarrow \quad x_2 = \inf
+  x_3 = \frac{\alpha_2}{\lambda p_2}, \quad \lambda = 0 \quad \Rightarrow \quad x_2 = \infty
 \end{equation}
 
 \begin{equation}
-  x_3 = \frac{\alpha_3}{\lambda p_3}, \quad \lambda = 0 \quad \Rightarrow \quad x_3 = \inf
+  x_3 = \frac{\alpha_3}{\lambda p_3}, \quad \lambda = 0 \quad \Rightarrow \quad x_3 = \infty
 \end{equation}
 
 Therefore, $\lambda = 0$, is not a valid case.
@@ -440,7 +440,7 @@ Therefore, $\lambda = 0$, is not a valid case.
 If $\lambda > 0$, then by the coupled expresions \ref{cou} complementary slackness, we have binding for the Income and can be expressed as an equation, not only as an unequality, so we have:
 
 \begin{equation}
-   I - p_1 \left( \frac{\alpha_1}{\lambda p_1} \right) - p_2 \left( \frac{\alpha_2}{\lambda p_2} \right) - p_3 \left( \frac{\alpha_3}{\lambda p_3} \right) = 0, \qquad \lambda \geq 0.
+   I - p_1 \left( \frac{\alpha_1}{\lambda p_1} \right) - p_2 \left( \frac{\alpha_2}{\lambda p_2} \right) - p_3 \left( \frac{\alpha_3}{\lambda p_3} \right) = 0, \qquad \lambda > 0.
 \end{equation}
 
 Let's work out the Income expression:
@@ -485,7 +485,7 @@ For the variable good $x_1$ we have:
   x_1 = \frac{\alpha_1}{\lambda p_1} \qquad \Rightarrow \qquad x_1 = \frac{\alpha_1 I}{ p_1}
 \end{equation}
 
-From this last expression, if we take into account that both $x_1 > 0$ and $I > 0$, we hence can infere that we only have two options for $\alpha_1$ and $p_1$, either they are both positive, or both negative, and none of them can be zero. Keep those implications in mind, as they might be solved by the practical economical terms of the problem statement.
+From this last expression, if we take into account that both $x_1 > 0$ and $I > 0$, we hence can infere that we only have two options for $\alpha_1$ and $p_1$, either they are both positive, or both negative, and none of them can be zero. Keep those implications in mind, as they might be solved by the practical economical terms of the problem statement. As the problem statement clearly says, the $\alpha_j$ constant are positive, therefore, both $\alpha_1$ and $p_1$ have to be positive.
 
 \paragraph{}
 For the variable good $x_1$ we have:
@@ -499,8 +499,113 @@ And finally, for the variable good $x_3$ we have:
   x_3 = \frac{\alpha_3}{\lambda p_3} \qquad \Rightarrow \qquad x_3 = \frac{\alpha_3 I}{ p_3}.
 \end{equation}
 
-So we have solved the optimization of the Utility function and comply with the unequality constraint.
+So we have solved the optimization of the Utility function and comply with the budget unequality constraint. We also found some restrictions on variables, lagrangian multiplier and parameters, let's summarize them:
 
+Constant parameters given by the excercise information
+\begin{equation}
+  \alpha_1 + \alpha_2 + \alpha_3 = 1,
+\end{equation}
+
+\begin{equation}
+  \alpha_1, \alpha_2, \alpha_3 \text{  are positive constants.}\\
+\end{equation}
+
+\medskip
+
+We began with the assumption that the quantities of goods variables
+\begin{equation}
+  x_1 > 0, \quad x_2 > 0, \quad x_3 > 0.
+\end{equation}
+
+But now we have the necessary information to prove that the assumption is correct, given the fact that complimentary slackness \ref{slk} and factibility of Case $\lambda > 0$ and goods variables optimization solution:
+
+\begin{equation}
+  x_1 = \frac{\alpha_1}{\lambda p_1}, \quad x_2 = \frac{\alpha_2}{\lambda p_2}, \quad x_3 = \frac{\alpha_3}{\lambda p_3}
+\end{equation}
+
+altogether show that
+\begin{equation}
+  I > 0
+\end{equation}
+
+keeping in mind that
+\begin{equation}
+  \lambda = \frac{1}{I}
+\end{equation}
+we also found that the budget constraints coeficients are positive
+\begin{equation}
+  p_1 > 0, \quad p_2 > 0, \quad  p_3 > 0.
+\end{equation}
+as the result of the lagrangian optimization.
+
+\medskip
+
+And for the exact same reasons the budget constraint now holds a binding:
+\begin{equation}\label{bin}
+   p_1x_1 + p_2x_2 + p_3x_3 = I
+\end{equation}
+
+Let's do question ourselves about the budget constraint expression coeficients. The exercise provided rationing constraint tells us that the the customer is not allowed to buy more than k units of good $x_1$, that is:
+\begin{equation}
+  p_1 \leq k
+\end{equation}
+
+when this unequality binds we have $p_1 = k$, and therefore the expression for the good variable Lagrange optimization becomes:
+\begin{equation}
+  x_1 = \frac{\alpha_1 I}{k}
+\end{equation}
+
+So now we can express the budget constrtaint, now a bindig, as follows
+\begin{equation}\label{binis}
+   kx_1+ p_2x_2 + p_3x_3 = I
+\end{equation}
+
+And keep in mind the lagrangian optimization goods variables equations, solved for $I$:
+\begin{equation}\label{bini}
+  I = \frac{k}{\alpha_1}x_1 = \frac{p_2}{\alpha_2}x_2 = \frac{p_3}{\alpha_3}x_3
+\end{equation}
+
+Let's express the budget constraint binding \label{bin} as a function of one of the goods variables, picking $x_2$ for example, so let's express $x_1$ in terms of $x_2$ from \ref{bin}:
+\begin{equation}
+  \frac{k}{\alpha_1}x_1 = \frac{p_2}{\alpha_2}x_2
+\end{equation}
+
+hence
+\begin{equation}
+  kx_1 = \frac{ \alpha_1 p_2}{\alpha_2}x_2.
+\end{equation}
+
+Now let's express $x_3$ in terms of $x_2$, taking their relationship from \ref{bini}
+\begin{equation}
+  \frac{p_2}{\alpha_2}x_2 = \frac{p_3}{\alpha_3}x_3
+\end{equation}
+
+therefore
+\begin{equation}
+  x_3 = \frac{p_2}{\alpha_2}\frac{\alpha_3}{p_3}x_2,
+\end{equation}
+
+consider the lagrangian optimization for $x_2$:
+\begin{equation}
+  x_2 = \frac{\alpha_2 I}{p_2},
+\end{equation}
+
+and let's substitute these expresions for $x_1, x_2, x_3$ in \ref{binis} as follows:
+\begin{equation}
+  \frac{ \alpha_1 p_2}{\alpha_2}x_2 + p_2x_2 + p_3\frac{p_2}{\alpha_2}\frac{\alpha_3}{p_3}x_2 = I
+\end{equation}
+
+now let's use $x_2$ optimization expression and substitute:
+\begin{equation}
+  \frac{ \alpha_1 p_2}{\alpha_2}\frac{\alpha_2 I}{p_2} + p_2\frac{\alpha_2 I}{p_2} + p_3\frac{p_2}{\alpha_2}\frac{\alpha_3}{p_3}\frac{\alpha_2 I}{p_2} = I
+\end{equation}
+
+and simplilfy that expression
+\begin{equation}
+  \alpha_1 + \alpha_2 + \alpha_3 = 1
+\end{equation}
+
+this expression verifies the given condition of the exercise.
 \end{document}
 
 
