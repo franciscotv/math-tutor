@@ -1,24 +1,29 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage{exercise}
+\usepackage{amsmath}
 
-\author{Francisco Treviño}
+\author{Francisco Trevino}
 \title{Optimization in Economic Theory:\\Lagrange's Method}
 
 \begin{document}
 \maketitle
 
+\medskip
+
 \begin{abstract}
-Exercises to practice Lagrange's optimization method.
+This work shows some exercises to practice Lagrange's Optimization Method including Extensions and Generalizations for more than two variables and Inequality Constraints, that is the "Lagrange's Method with Inequality Constraints", as shown by the Kuhn-Tucker Theorem applied to the field of Economic Theroy, that generalizes the Lagrange's Optimization Method for non-negative variables and Inequality Constraints.
 \end{abstract}
 
-\paragraph{Excersise 2.1: The Cobbs-Douglas Utility Function}
+\bigskip
+
+\section*{Excersise 2.1: The Cobbs-Douglas Utility Function}
 \paragraph{}
-Consider the consumer's problem with utility function $U$ defined by
+Consider the consumer's problem with utility function $U$ defined by the following function
   \begin{equation}
     U(x, y) = x^\alpha y^\beta
   \end{equation}
-Show that it yields the constant-budget-shared demand functions
+Find a way for showing that the given utility function yields the constant-budget-shared demand functions defined by:
   \begin{equation}\label{df}
     x = \frac{\alpha I}{(\alpha + \beta)p}, \qquad y = \frac{\beta I}{(\alpha + \beta)q}
   \end{equation}
@@ -47,6 +52,8 @@ And now proceed with the partial derivatives, that involve implicit derivation, 
     \frac{\partial L}{\partial \lambda} = I - px - qy = 0
   \end{equation}
 
+\medskip
+
 If we clear for $\lambda$ in the two first partial derivatives we have:
 
   \begin{equation}
@@ -63,6 +70,8 @@ So we can find a relationship between $x$ and $y$ doing some Algebra, as shown:
     \frac{\alpha x^{\alpha - 1} y^\beta}{p} = \frac{\beta x^\alpha y^{\beta - 1}}{q}
   \end{equation}
 
+\medskip
+
 Therefore, multiplying both sides by $x^{1 - \alpha}$
   \begin{equation}
     \frac{\alpha y^\beta}{p} = \frac{\beta x  y^{\beta - 1}}{q}
@@ -77,6 +86,8 @@ From there we find $x$ and $y$ relationships:
   \begin{equation}
    x = \frac{\alpha q}{\beta p}y, \qquad y = \frac{\beta p}{\alpha q}x
   \end{equation}
+
+\medskip
 
 Now lets substitute these, one at the time, in the Lagrange multiplier partial derivative $\ref{lag}$, as follows:
   \begin{equation}
@@ -105,6 +116,8 @@ So we lastly solve for $x$:
     x = \frac{\alpha I}{(\alpha + \beta)p}
   \end{equation}
 
+\medskip
+
 Now we follow the same process for $y$:
   \begin{equation}
     I = p\frac{\alpha q}{\beta p}y + qy
@@ -122,6 +135,8 @@ Solving for $y$, we have:
   \begin{equation}\label{y}
     y = \frac{\beta I}{(\alpha + \beta)q}
   \end{equation}
+
+\medskip
 
 \paragraph{}
 So we proved that the Utility function yields the constant-budget-shared demand functions $\ref{df}$
@@ -146,9 +161,13 @@ And finally:
     \lambda = \frac{\alpha^\alpha \beta^\beta I^{\alpha + \beta - 1}}{(\alpha + \beta)^{\alpha + \beta - 1}p^\alpha q^\beta}
   \end{equation}
 
-.\newline
+\medskip
 
-\paragraph{Exercise 2.2: The Linear Expenditure System}
+which give us an expression of the Lagrange multiplier $\lambda$ in terms of the utility function and budget constraint parameters. 
+
+\bigskip
+
+\section*{Exercise 2.2: The Linear Expenditure System}
 
 \paragraph{}
 
@@ -231,6 +250,8 @@ Hence, due to restriction given above:
   \lambda = 1/(I - px_0 - qy_0)
 \end{equation}
 
+\medskip
+
 We now proceed to find two expressions for $\lambda$ in terms of $x$ and $y$ and find the value of them in terms of the parameters.
 
 From the partial derivative of the Lagrangian with respect to $x$ we can easily see that
@@ -252,10 +273,14 @@ we can equal this equation with \ref{lam}:
   px = \alpha I - \alpha q y_0 - px_0(\alpha - 1)
 \end{equation}
 
+\medskip
+
 Remember the restriction \ref{res}, so we have:
 \begin{equation}
   px = \alpha I - \alpha q y_0 + \beta px_0
 \end{equation}
+
+\medskip
 
 From the partial derivative of the Lagrangian with respect to $y$ we follow the same procedure as we did with $x$:
 
@@ -276,20 +301,207 @@ we can equal this equation with \ref{lam}:
   qy = \beta I - \beta px_0 - qy_0(\beta - 1)
 \end{equation}
 
+\medskip
+
 Remember the restriction \ref{res}, so we have:
 
 \begin{equation}
   qy = \beta I - \beta px_0 + \alpha qy_0
 \end{equation}
 
-So we now have both Optimal expenditures for $x$ and $y$
+\medskip
 
-\end{document}
-\begin{equation}
- test
+So we now have both Optimal expenditures for $x$ and $y$ that show a linear dependency on the initial parameters of both, the utility function and budget constraint as well.
+
+\bigskip
+
+\section*{Excercise 3.1: Rationing}
+
+\medskip
+
+Suppose a consumer has the utility function
+\begin{equation}\label{ut}
+  U(x_1, x_2, x_3) = \alpha_1 ln(x_1) + \alpha_2 ln(x_2) +\alpha_3 ln(x_3)
 \end{equation}
 
+where $\alpha_j$ are positive constants summing to one. The budget constraint is
 
+\begin{equation}
+  p_1x_1 + p_2x_2 + p_3x_3 \leq I.
+\end{equation}
+
+In addition, the consumer faces a rationing constraint: he is not allowed to buy more that $k$ units of good 1.
+
+\paragraph{}
+Solve the optimization problem. Under what condition on the various parameters is the rationing constraint binding?
+
+\paragraph{}
+We do construct the Lagrangian function as follows
+\begin{multline}
+  L(x_1, x_2, x_3, \lambda) = \alpha_1 ln(x_1) + \alpha_2 ln(x_2) +\alpha_3 ln(x_3) \\ + \lambda (I - p_1x_1 - p_2x_2 - p_3x_3)
+\end{multline}
+
+We do assume that the quantities of goods $x_1, x_2, x_3$ are non negative which "binds" the expressions of the partial derivatives to be exact equations, and not unequalities as the Kuhn-Tucker Theorem would render necesary, by the term binding, we refer to the fact that when a single unequality, say $x \geq 0$, is binding if it holds as an equation. That is, according to Kuhn-Tucker theorem, for the optimization of Lagrangian we must have
+
+\begin{equation}
+  \frac{\partial L}{\partial x_i} = f(x1, ..., x_i, \lambda) \leq 0, \qquad x_i \geq 0
+\end{equation}
+
+Therefore, as we have all quantities of goods non-negative, then $x_i > 0$ holds for each good variable which in turn allows the optimization of the goods variables to be binding, rendering an equation, in other words, we do have
+
+\begin{equation}
+  \frac{\partial L}{\partial x_i} = f(x1, ...,x_i, \lambda) = 0, \qquad x_i > 0
+\end{equation}
+
+With this theoretical considerations in mind, now let's proceed to calculate the optimization conditions for each variable and the Lagrange multiplier as well, considering the goods variables binding for the optimization expressions:
+
+\begin{equation}
+  \frac{\partial L}{\partial x_1} = \frac{\alpha_1}{x_1} - \lambda p_1 = 0
+\end{equation}
+
+from this result we can express $x_1$ as a function of $\lambda$
+
+\begin{equation}
+  x_1 = \frac{\alpha_1}{\lambda p_1}
+\end{equation}
+
+we do the same process for the variables $x_2$ and $x_3$, this is for $x_2$:
+\begin{equation}
+  \frac{\partial L}{\partial x_2} = \frac{\alpha_2}{x_2} - \lambda p_2 = 0
+\end{equation}
+
+from this result we can express $x_2$ as a function of $\lambda$
+
+\begin{equation}
+  x_2 = \frac{\alpha_2}{\lambda p_2}
+\end{equation}
+
+and now for $x_3$
+
+\begin{equation}
+  \frac{\partial L}{\partial x_3} = \frac{\alpha_3}{x_3} - \lambda p_3 = 0
+\end{equation}
+
+from this result we can express $x_3$ as a function of $\lambda$
+
+\begin{equation}
+  x_3 = \frac{\alpha_3}{\lambda p_3}
+\end{equation}
+
+\paragraph{}
+Now we have all goods variables expressed as functions of the Lagrange multiplier.
+\paragraph{}
+ Let's apply the optimization method for the Lagrange multiplier in our Lagrangian function, taking into account the Kuhn-Tucker Theorem, that states that, the partial derivative of the Lagrangian function with respect to a lagrangian multiplier, must be related to the multiplier itself by "complementary slackness", by this we mean that because of our unequality constraint, the optimization of the lagrangian multiplier is given by the expression:
+
+\begin{equation}
+  \frac{\partial L(x1, ..., x_i, \lambda)}{\partial \lambda} \geq 0, \qquad \lambda \geq 0
+\end{equation}
+
+as given by the Kuhn-Tucker Theorem and the complementary slackness imply that if the two unequalties just given cannot be strict simultaneously, then that pair of unequalities show complementary slackness.
+
+Which in our excersise renders this expression:
+
+\begin{equation}
+  \frac{\partial L}{\partial \lambda} = I - p_1x_1 - p_2x_2 - p_3x_3 \geq 0, \qquad \lambda \geq 0.
+\end{equation}
+
+The optimization of the lagrange multiplier just given, can be expressed in terms of the goods variables $x_1, x_2, x_3 $ if we use the optimization expressions found above, let's substitute those findings in the last expression:
+\begin{equation}\label{cou}
+   I - p_1x_1 - p_2x_2 - p_3x_3 \geq 0, \qquad \lambda \geq 0.
+\end{equation}
+
+can be expressed as:
+\begin{equation}
+   I - p_1 \left( \frac{\alpha_1}{\lambda p_1} \right) - p_2 \left( \frac{\alpha_2}{\lambda p_2} \right) - p_3 \left( \frac{\alpha_3}{\lambda p_3} \right) \geq 0, \qquad \lambda \geq 0.
+\end{equation}
+
+This provides us with two possibilities or two cases to analyse, either $\lambda$ is equal to zero, or greater than zero. Let's analyse those cases.
+
+\bigskip
+
+\subsection*{Case: $\lambda = 0$}
+If we have $\lambda = 0$, then that would imply, that our goods variables $x_1, x_2, x_3 $ would be undefined, and that makes no sense, that is:
+
+\begin{equation}
+  x_1 = \frac{\alpha_1}{\lambda p_1}, \quad \lambda = 0 \quad \Rightarrow \quad x_1 = \inf
+\end{equation}
+
+\begin{equation}
+  x_3 = \frac{\alpha_2}{\lambda p_2}, \quad \lambda = 0 \quad \Rightarrow \quad x_2 = \inf
+\end{equation}
+
+\begin{equation}
+  x_3 = \frac{\alpha_3}{\lambda p_3}, \quad \lambda = 0 \quad \Rightarrow \quad x_3 = \inf
+\end{equation}
+
+Therefore, $\lambda = 0$, is not a valid case.
+
+\subsection*{Case: $\lambda > 0$}
+If $\lambda > 0$, then by the coupled expresions \ref{cou} complementary slackness, we have binding for the Income and can be expressed as an equation, not only as an unequality, so we have:
+
+\begin{equation}
+   I - p_1 \left( \frac{\alpha_1}{\lambda p_1} \right) - p_2 \left( \frac{\alpha_2}{\lambda p_2} \right) - p_3 \left( \frac{\alpha_3}{\lambda p_3} \right) = 0, \qquad \lambda \geq 0.
+\end{equation}
+
+Let's work out the Income expression:
+\begin{equation}
+   I - p_1 \left( \frac{\alpha_1}{\lambda p_1} \right) - p_2 \left( \frac{\alpha_2}{\lambda p_2} \right) - p_3 \left( \frac{\alpha_3}{\lambda p_3} \right) = 0
+\end{equation}
+
+we can easily that we can simplify:
+\begin{equation}
+   I - \left( \frac{\alpha_1}{\lambda} \right) - \left( \frac{\alpha_2}{\lambda} \right) - \left( \frac{\alpha_3}{\lambda} \right) = 0
+\end{equation}
+
+yet another step:
+\begin{equation}
+   I - \left( \frac{1}{\lambda} \right) (\alpha_1 + \alpha_2+ \alpha_3) = 0
+\end{equation}
+
+and lastly we can solve for the langrangian multiplier:
+\begin{equation}
+   \lambda =  \frac{\alpha_1 + \alpha_2+ \alpha_3}{I},
+\end{equation}
+
+plug in the given condition:
+\begin{equation}
+  \alpha_1 + \alpha_2+ \alpha_3 = 1
+\end{equation}
+
+So we have a final expression for the lagrangian multiplier in terms of the income:
+\begin{equation}
+   \lambda =  \frac{1}{I}.
+\end{equation}
+
+As $\lambda > 0$, the last expression implies that the Income, $I > 0$ as well.
+
+\medskip
+
+We are now in a position where we can solve the optimization problem for the all goods variables as well, lets plug the found expression of the lagrangian multiplier, into the goods variables expressions found when optimizing the Lagrangian function.
+
+\paragraph{}
+For the variable good $x_1$ we have:
+\begin{equation}
+  x_1 = \frac{\alpha_1}{\lambda p_1} \qquad \Rightarrow \qquad x_1 = \frac{\alpha_1 I}{ p_1}
+\end{equation}
+
+From this last expression, if we take into account that both $x_1 > 0$ and $I > 0$, we hence can infere that we only have two options for $\alpha_1$ and $p_1$, either they are both positive, or both negative, and none of them can be zero. Keep those implications in mind, as they might be solved by the practical economical terms of the problem statement.
+
+\paragraph{}
+For the variable good $x_1$ we have:
+\begin{equation}
+  x_2 = \frac{\alpha_2}{\lambda p_2} \qquad \Rightarrow \qquad x_2 = \frac{\alpha_2 I}{ p_2}.
+\end{equation}
+
+\paragraph{}
+And finally, for the variable good $x_3$ we have:
+\begin{equation}
+  x_3 = \frac{\alpha_3}{\lambda p_3} \qquad \Rightarrow \qquad x_3 = \frac{\alpha_3 I}{ p_3}.
+\end{equation}
+
+So we have solved the optimization of the Utility function and comply with the unequality constraint.
+
+\end{document}
 
 
 
