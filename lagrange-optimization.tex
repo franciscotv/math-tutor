@@ -3,7 +3,7 @@
 \usepackage{exercise}
 \usepackage{amsmath}
 
-\author{Jack King}
+\author{Francisco Treviño}
 \title{Optimization in Economic Theory:\\Lagrange's Method}
 
 \begin{document}
@@ -481,21 +481,21 @@ We are now in a position where we can solve the optimization problem for the all
 
 \paragraph{}
 For the variable good $x_1$ we have:
-\begin{equation}
+\begin{equation}\label{opt1}
   x_1 = \frac{\alpha_1}{\lambda p_1} \qquad \Rightarrow \qquad x_1 = \frac{\alpha_1 I}{ p_1}
 \end{equation}
 
 From this last expression, if we take into account that both $x_1 > 0$ and $I > 0$, we hence can infere that we only have two options for $\alpha_1$ and $p_1$, either they are both positive, or both negative, and none of them can be zero. Keep those implications in mind, as they might be solved by the practical economical terms of the problem statement. As the problem statement clearly says, the $\alpha_j$ constant are positive, therefore, both $\alpha_1$ and $p_1$ have to be positive.
 
 \paragraph{}
-For the variable good $x_1$ we have:
-\begin{equation}
+For the variable good $x_2$ we have:
+\begin{equation}\label{opt2}
   x_2 = \frac{\alpha_2}{\lambda p_2} \qquad \Rightarrow \qquad x_2 = \frac{\alpha_2 I}{ p_2}.
 \end{equation}
 
 \paragraph{}
 And finally, for the variable good $x_3$ we have:
-\begin{equation}
+\begin{equation}\label{opt3}
   x_3 = \frac{\alpha_3}{\lambda p_3} \qquad \Rightarrow \qquad x_3 = \frac{\alpha_3 I}{ p_3}.
 \end{equation}
 
@@ -547,68 +547,175 @@ And for the exact same reasons the budget constraint now holds a binding:
 
 Let's do question ourselves about the budget constraint expression coeficients. The exercise provided rationing constraint tells us that the the customer is not allowed to buy more than k units of good $x_1$, that is:
 \begin{equation}
-  p_1 \leq k
+  x_1 \leq k
 \end{equation}
 
-when this unequality binds we have $p_1 = k$, and therefore the expression for the good variable Lagrange optimization becomes:
+when this unequality binds we have $x_1 = k$, and therefore the expression for the good variable Lagrange optimization becomes:
 \begin{equation}
-  x_1 = \frac{\alpha_1 I}{k}
+  k = \frac{\alpha_1 I}{p_1}
 \end{equation}
 
-So now we can express the budget constrtaint, now a bindig, as follows
+So now we can express the budget constrtaint, now a bindig, using the rationing constraint just discussed
 \begin{equation}\label{binis}
-   kx_1+ p_2x_2 + p_3x_3 = I
+   p_1x_1+ p_2x_2 + p_3x_3 = I
+\end{equation}
+
+\begin{equation}\label{binisb}
+  p_1k+ p_2x_2 + p_3x_3 = I
 \end{equation}
 
 And keep in mind the lagrangian optimization goods variables equations, solved for $I$:
 \begin{equation}\label{bini}
-  I = \frac{k}{\alpha_1}x_1 = \frac{p_2}{\alpha_2}x_2 = \frac{p_3}{\alpha_3}x_3
+  I = \frac{p_2}{\alpha_2}x_2 = \frac{p_3}{\alpha_3}x_3
 \end{equation}
 
-Let's express the budget constraint binding \label{bin} as a function of one of the goods variables, picking $x_2$ for example, so let's express $x_1$ in terms of $x_2$ from \ref{bin}:
+Let's express the budget constraint binding \ref{binisb} as a function of the goods variables optimized expressions and rationing constraint binding:
 \begin{equation}
-  \frac{k}{\alpha_1}x_1 = \frac{p_2}{\alpha_2}x_2
+   p_1k+ p_2 \left( \frac{\alpha_2}{p_2} \right)I + p_3  \left( \frac{\alpha_3}{p_3} \right)I = I
 \end{equation}
 
-hence
+Now a bit of algebra:
 \begin{equation}
-  kx_1 = \frac{ \alpha_1 p_2}{\alpha_2}x_2.
+   p_1k+ \alpha_2 I + \alpha_3 I = I
 \end{equation}
 
-Now let's express $x_3$ in terms of $x_2$, taking their relationship from \ref{bini}
 \begin{equation}
-  \frac{p_2}{\alpha_2}x_2 = \frac{p_3}{\alpha_3}x_3
+   p_1k= (1 - \alpha_2 - \alpha_3) I
 \end{equation}
 
-therefore
-\begin{equation}
-  x_3 = \frac{p_2}{\alpha_2}\frac{\alpha_3}{p_3}x_2,
-\end{equation}
+Remember the problem statement condition:
 
-consider the lagrangian optimization for $x_2$:
-\begin{equation}
-  x_2 = \frac{\alpha_2 I}{p_2},
-\end{equation}
-
-and let's substitute these expresions for $x_1, x_2, x_3$ in \ref{binis} as follows:
-\begin{equation}
-  \frac{ \alpha_1 p_2}{\alpha_2}x_2 + p_2x_2 + p_3\frac{p_2}{\alpha_2}\frac{\alpha_3}{p_3}x_2 = I
-\end{equation}
-
-now let's use $x_2$ optimization expression and substitute:
-\begin{equation}
-  \frac{ \alpha_1 p_2}{\alpha_2}\frac{\alpha_2 I}{p_2} + p_2\frac{\alpha_2 I}{p_2} + p_3\frac{p_2}{\alpha_2}\frac{\alpha_3}{p_3}\frac{\alpha_2 I}{p_2} = I
-\end{equation}
-
-and simplilfy that expression
 \begin{equation}
   \alpha_1 + \alpha_2 + \alpha_3 = 1
 \end{equation}
 
-this expression verifies the given condition of the exercise.
+therefore, we can simplify:
+
+\begin{equation}
+   p_1k= \alpha_1 I
+\end{equation}
+
+Hence, we can express the income in terms of variable $x_1$ coefficients:
+
+\begin{equation}
+  I = \frac{p_1 k}{\alpha_1}
+\end{equation}
+
+Now we have the sufficient information to express \ref{binisb} the Income constraint and rationing constraint, both being bindings, and find out under what conditions of the various parameters is the rationing constraint a binding $(x_1 = k)$. So, let's express \ref{binisb} using our latest finding:
+
+\begin{equation}
+  \frac{p_1 k}{\alpha_1} = p_1 k + p_2 x_2 + p_3 x_3
+\end{equation}
+
+Hence, these conditions apply on goods 2 and 3 for the rationing constraint to hold a binding:
+
+\begin{equation}
+  p_2 x_2 + p_3 x_3 = p_1 k \left( \frac{1}{\alpha_1} - 1\right)
+\end{equation}
+
+\begin{equation}
+  p_2 x_2 + p_3 x_3 = p_1 k \left( \frac{1 - \alpha_1}{\alpha_1} \right).
+\end{equation}
+
+\paragraph{}
+Now lets analyze the rationing constraint when it binds, that is when $x_1 = k$, is subject to the constraint. We are going to show how the proportion among positive constants of goods 2 and 3, $\alpha_2 : \alpha_3$ represents the Income that the customer would like to have spend on good 1 but cannot do so and is split between goods 2 and 3. Lets begin with the Income expression for when the rationing constraint binds:
+
+\begin{equation}\label{binprop}
+   p_1k + p_2x_2 + p_3x_3 = I
+\end{equation}
+
+and bring back the optimization results for each good variable in equations \ref{opt1}, \ref{opt2}, \ref{opt3}, using these equations let's express good variable $x_2$ in terms of $x_3$ and substitute in the Income binding rationing constraint equation \ref{binprop}, as follows:
+
+\begin{equation}\label{bindop}
+x_1 = k = \frac{\alpha_1}{p_1}I, \qquad  x_2 = \frac{\alpha_2}{p_2}I, \qquad x_3 = \frac{\alpha_3}{p_3}I
+\end{equation}
+
+Therefore we can express these equalities:
+
+\begin{equation}\label{equals}
+  I = \frac{p_1k}{\alpha_1} = \frac{p_2x_2}{\alpha_2} = \frac{p_3x_3}{\alpha_3}
+\end{equation}
+
+and use them to express $x_2$ in terms of $x_3$
+
+\begin{equation}
+  p_1k + p_2 \left( \frac{\alpha_2}{\alpha_3} \frac{p_3}{p_2} \right)x_3 + p_3x_3 = I
+\end{equation}
+
+and simplify:
+
+\begin{equation}
+  p_1k + \left( \frac{\alpha_2}{\alpha_3}+ 1 \right)p_3x_3 = I
+\end{equation}
+
+Now let's express $p_3x_3$ in terms of $p_1, k,$ and $\alpha_1$ using equalities \ref{equals}, as follows:
+
+\begin{equation}
+  p_1k + \left( \frac{\alpha_2}{\alpha_3}+ 1 \right) \left( \frac{\alpha_3}{\alpha_1} \right) p_1k = I
+\end{equation}
+
+\begin{equation}
+  \frac{\alpha_2}{\alpha_3}+ 1 = (I - p_1k) \left( \frac{\alpha_1}{p_1} \right) \left( \frac{1}{\alpha_3} \right) \left( \frac{1}{k} \right)
+\end{equation}
+
+express $\alpha_1, p_1$ in terms of k and I from equalities \ref{equals}
+
+\begin{equation}
+  \frac{\alpha_2}{\alpha_3} = (I - p_1k) \left( \frac{k}{I} \right) \left( \frac{1}{\alpha_3} \right) \left( \frac{1}{k} \right) - 1
+\end{equation}
+
+so we see how the amount of income that the customer would have like to spend on good 1, $(I - p_1k)$, is determined in terms of the various known parameters.
+
+\begin{equation}\label{prop2}
+  \frac{\alpha_2}{\alpha_3} = \frac{I - p_1k - \alpha_3I}{\alpha_3 I}.
+\end{equation}
+
+We now repeat the same process expressing $x_3$ good variable in terms of $x_2$.
+
+\begin{equation}
+  p_1k + p_2 x_2 + p_3x_3 = I
+\end{equation}
+
+express $x_3$ in terms of $x_2$ using equalities \ref{equals}
+
+\begin{equation}
+  p_1k + p_2 x_2 + p_3 \left( \frac{\alpha_3}{\alpha_2} \right) \left( \frac{p_2}{p_3} \right)x_2 = I
+\end{equation}
+
+\begin{equation}
+  p_1k + p_2 x_2 \left( 1 +  \frac{\alpha_3}{\alpha_2} \right) = I
+\end{equation}
+
+Now let's express $p_2x_2$ in terms of $p_1, k$ and $\alpha_1$ using equalities \ref{equals}, as follows:
+
+\begin{equation}
+  \frac{p_1}{\alpha_1} \alpha_2 k \left( 1 +  \frac{\alpha_3}{\alpha_2} \right) = I - p_1k
+\end{equation}
+
+\begin{equation}
+  1 +  \frac{\alpha_3}{\alpha_2} =( I - p_1k) \left( \frac{\alpha_1}{p_1} \right) \left( \frac{1}{\alpha_2 k} \right)
+\end{equation}
+
+express $\alpha_1, p_1$ in terms of k and I from equalities \ref{equals}
+
+\begin{equation}
+  \frac{\alpha_3}{\alpha_2} =( I - p_1k) \left( \frac{k}{I} \right) \left( \frac{1}{\alpha_2 k} \right)- 1
+\end{equation}
+
+\begin{equation}\label{prop3}
+  \frac{\alpha_3}{\alpha_2} = \frac{ I - p_1k - \alpha_2 I}{\alpha_2 I}
+\end{equation}
+
+Finally, let's do divide the complete equation \ref{prop2} by \ref{prop3}, as physicists do sometimes:
+
+\begin{equation}
+  \frac{\alpha_2^2}{\alpha_3^2} = \frac{(I - p_1k - \alpha_3 I)\alpha_2 I}{(I - p_1k - \alpha_2 I)\alpha_3 I}
+\end{equation}
+
+\begin{equation}
+  \frac{\alpha_2}{\alpha_3} = \frac{I - p_1k - \alpha_3 I}{I - p_1k - \alpha_2 I}
+\end{equation}
+
+Therefore we can see how the amount of Income that the customer would like to have spend on good 1, $(I - p_1k)$, is given by the proportion $\alpha_2 : \alpha_3$.
 \end{document}
-
-
-
-
 
