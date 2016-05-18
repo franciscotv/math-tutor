@@ -204,7 +204,7 @@ Miriam organiza sus gastos de la siguiente manera:
 • Lo que le sobra, $2600, los ahorra.
 
 ¿Cuál es el salario de Miriam?
-1 COMENTARIO  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Agabykh hace 11 min.
+1 COMENTARIO      por Agabykh hace 11 min.
 como puedo resolverlo por que no entiendo como
 
  
@@ -1166,11 +1166,11 @@ a^2 - 9a + 14 = 0
 Hay dos soluciones para la ecuación, a = 7 y a = 2, pero nuestro probllema exige que la edad sea mayor a 4 ("hace 4 años la edad de Ana..."), Ana tiene 7 años y la condición se cumple.
 ----------------------------------------------------------------------------------------------------------------------------
 Tiene tres cifras deferentes. la suma de sus cifras es 16. la cifra de las centenas es el doble que la cifra de las unidades
-PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Helemyurai hace 11 min.
+      por Helemyurai hace 11 min.
 RESPUESTAS
-zerofrancisco
- zerofrancisco
-Zerofrancisco  Profesor 
+
+ 
+  Profesor 
 - el número es 
 abc
 
@@ -1204,12 +1204,7 @@ ese numero cumple condiciones también
 ----------------------------------------------------------------------------------------------------------------------------
 
 En una granja hay patos y conejos si yo cuento las cabezas me da 24 y si cuento las patas me da 62 ¿Cuántos conejos hay?
-PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por 11pastela hace 3 min.
-RESPUESTAS
-zerofrancisco
-11pastela
- zerofrancisco
-Zerofrancisco  Genio 
+
 la cantidad de patos es p, la cantidad de conejos es c, los conejos tienen 4 patas, los patos 2, así que:
 
   p +  c  = 24
@@ -1316,7 +1311,7 @@ tenía 10 caballos originalmente
 -------------------------------------
 Una compañía minera extrae algunos metales básicos de dos minas: Tau Tona y Cerro Verde. La mina Tau Tona contiene 1,42 % de estaño y 2,44 % de cobre,
 mientras que la mina Cerro Verde contiene 2,33 % de estaño y 5,44 % de cobre. ¿Qué cantidad de toneladas se deberá extraer en total de ambas minas para obtener 9 toneladas de cobre y 4,1 toneladas de estaño?
-PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por Joseime777 hace 2 semanas
+      por Joseime777 hace 2 semanas
 RESPUESTAS
 Paquitotrek  Ambicioso
 llamamos c a la cantidad respectiva de mineral obtenido de la mina Cerro Verde y t a la cantidad obtenida de la mina Tau Tona, tenemos dos ecuaciones lineales simultáneas, respecto al estaño y al cobre:
@@ -1351,7 +1346,7 @@ ese es el número de toneladas a extraer de la mina Tau Tona.
 ---------------------------------------------------------------------------------------
 Un vendedor de huevos, vende 2/5 de su canasto, vuelve a vender 1/3 del resto y en una tercera venta, vende la mitad del nuevo resto. sí añadiera 34 a lo q
 ue le quedan, el número primitivo quedaría aumentado en 1/3 ¿Cuántos huevos había en la canasta?
-PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por KarlaMelissaB hace 2 semanas
+      por KarlaMelissaB hace 2 semanas
 RESPUESTAS
 Paquitotrek  Ambicioso
 Veamos, el número inicial será x huevos, así que:
@@ -1381,7 +1376,7 @@ esa es la cantidad primitiva de huevos.
 ----------------------------------------------------------------------------------------------------------------------------
 Si la función demanda es D(q)=1000-0,4q^2 y la función oferta es S(q)=42q. Calcule el excedente del producto EP y el excedente del consumidor
 EC.
-PIDE MÁS DETALLES  OBSERVANDO  ¡NOTIFICAR ABUSO!  por ARYANCHO hace 2 semanas
+      por ARYANCHO hace 2 semanas
 RESPUESTAS
 Paquitotrek  Ambicioso
 calculamos el punto de equilibrio igualando demanda y oferta:
@@ -1419,9 +1414,69 @@ EP = ∫42q dq, evaluado desde 0 a 840
 = 21q^2 = 21(840)^2 = 9878400
 
 ----------------------------------------------------------------------------------------------------------------------------
+Una canica de cristal pesa 8 gramos menos que una de acero.Si tres canicas de acero pesan lo mismo que cinco de cristal cuanto pesa una de cada clase?
+cristal>(×-8) acero> x gramos
 
+veamos discerniendo la información por partes: c es la masa de una canica de cristal, a es de acero.
+
+- Una canica de cristal pesa 8 gramos menos que una de acero
+c = a - 8
+
+- tres canicas de acero pesan lo mismo que cinco de cristal
+3a = 5c
+
+por lo tanto
+a = c + 8
+
+sustituye:
+3a = 5c
+3(c + 8) = 5c
+3c + 24 = 5c
+2c = 24
+c = 12
+
+por lo tanto la canica de cristal pesa 12 gramos y la de acero:
+a = c + 8 = 12 + 8 = 20 gramos
 
 ----------------------------------------------------------------------------------------------------------------------------
+Las edades de cuatro hermanos son cantidades enteras y consecutivas. Se reparte una suma de dinero proporcionalmente a sus edades de tal manera que el
+menor recibe los 4/5 del mayor. ¿Cuánto recibe el mayor, si el segundo recibe S/. 140?
+
+la edad del menor es a, por lo tanto, la siguiente es a + 1, a + 2, a + 3
+
+el total de dinero es x, por lo tanto la proporción de dinero es:
+x / (a + a + 1 + a + 2 + a + 3) = x/(4a + 6)
+
+el mayor recibe más dinero
+(a + 3) * ( x/(4a + 6) ) = mayor_dinero_recibido
+
+el segundo recibe 140
+(a + 1) * ( x/(4a + 6) ) = 140
+por lo tanto
+xa + x = 140(4a + 6)
+xa + x = 560a + 840
+
+el menor recibe 4/5 del mayor
+a * ( x/(4a + 6) ) = (4/5) * (a + 3) * ( x/(4a + 6) )
+
+por lo tanto:
+a = (4/5)(a + 3)
+
+5a = 4a + 12
+a = 12
+esa es la edad del primero
+
+sustitiuimos en la ecuación anterior:
+xa + x = 560a + 840
+12x + x = 560*12 + 840
+13x = 7560
+x = 7560/13
+esa es la cantidad total de dinero y el mayor recibe:
+
+(a + 3) * ( x/(4a + 6) ) = mayor_dinero_recibido
+(12 + 3) * ( (7560/13)/(4*12 + 6) ) = mayor_dinero_recibido
+= 161.53
+
 ----------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------
